@@ -51,6 +51,6 @@ dependencies {
     // Retrofit
     implementation "com.squareup.retrofit2:retrofit$retrofit_version"
     //coroutines
-    implementation"org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.4$coroutines_version"
+    implementation"org.jetbrains.kotlinx:kotlinx-coroutines-core$coroutines_version"
 
 }
