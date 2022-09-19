@@ -1,10 +1,10 @@
-package com.example.weatherfetcher.weather_screen.data.ui
+package com.example.weatherfetcher.weather_screen
 
 import com.example.weatherfetcher.weather_screen.data.WeatherRepo
 
 class WeatherInteractor(private val weatherRepo: WeatherRepo) {
 
-    fun getWeather(): String {
+    suspend fun getWeather(): String {
         return weatherRepo.getTemperature()
 
     }

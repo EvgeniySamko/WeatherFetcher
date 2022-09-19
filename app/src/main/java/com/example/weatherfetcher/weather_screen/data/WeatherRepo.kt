@@ -2,5 +2,5 @@ package com.example.weatherfetcher.weather_screen.data
 
 interface WeatherRepo {
 
-    fun getTemperature(): String
+    suspend fun getTemperature(): String
 }
