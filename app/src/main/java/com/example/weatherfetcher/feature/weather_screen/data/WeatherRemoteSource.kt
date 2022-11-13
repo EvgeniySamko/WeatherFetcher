@@ -1,6 +1,6 @@
-package com.example.weatherfetcher.weather_screen.data
+package com.example.weatherfetcher.feature.weather_screen.data
 
-import com.example.weatherfetcher.weather_screen.data.model.WeatherRemoteModel
+import com.example.weatherfetcher.feature.weather_screen.data.model.WeatherRemoteModel
 
 class WeatherRemoteSource(private val api: WeatherApi) {
 
