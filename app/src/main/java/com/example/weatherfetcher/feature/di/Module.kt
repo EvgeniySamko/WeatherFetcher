@@ -1,12 +1,12 @@
-package com.example.weatherfetcher.feature.weather_screen.di
+package com.example.weatherfetcher.feature.di
 
-import com.example.weatherfetcher.BASE_URL
+import com.example.weatherfetcher.feature.data.WeatherApi
+import com.example.weatherfetcher.feature.data.WeatherRemoteSource
+import com.example.weatherfetcher.feature.data.WeatherRepo
+import com.example.weatherfetcher.feature.data.WeatherRepoImpl
+import com.example.weatherfetcher.feature.ui.WeatherScreenViewModel
+import com.example.weatherfetcher.feature.weather_screen.BASE_URL
 import com.example.weatherfetcher.feature.weather_screen.WeatherInteractor
-import com.example.weatherfetcher.feature.weather_screen.data.WeatherApi
-import com.example.weatherfetcher.feature.weather_screen.data.WeatherRemoteSource
-import com.example.weatherfetcher.feature.weather_screen.data.WeatherRepo
-import com.example.weatherfetcher.feature.weather_screen.data.WeatherRepoImpl
-import com.example.weatherfetcher.feature.weather_screen.ui.WeatherScreenViewModel
 import okhttp3.OkHttpClient
 import org.koin.androidx.viewmodel.dsl.viewModel
 import org.koin.dsl.module

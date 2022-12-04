@@ -1,7 +1,7 @@
-package com.example.weatherfetcher.feature.weather_screen.data
+package com.example.weatherfetcher.feature.data
 
-import com.example.weatherfetcher.API_KEY
-import com.example.weatherfetcher.feature.weather_screen.data.model.WeatherRemoteModel
+import com.example.weatherfetcher.feature.data.model.WeatherRemoteModel
+import com.example.weatherfetcher.feature.weather_screen.API_KEY
 import retrofit2.http.GET
 import retrofit2.http.Query
 

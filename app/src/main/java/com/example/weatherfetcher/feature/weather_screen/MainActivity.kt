@@ -1,13 +1,14 @@
-package com.example.weatherfetcher
+package com.example.weatherfetcher.feature.weather_screen
 
 import android.os.Bundle
 import android.widget.ProgressBar
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.isVisible
-import com.example.weatherfetcher.feature.weather_screen.ui.UiEvent
-import com.example.weatherfetcher.feature.weather_screen.ui.ViewState
-import com.example.weatherfetcher.feature.weather_screen.ui.WeatherScreenViewModel
+import com.example.weatherfetcher.R
+import com.example.weatherfetcher.feature.ui.UiEvent
+import com.example.weatherfetcher.feature.ui.ViewState
+import com.example.weatherfetcher.feature.ui.WeatherScreenViewModel
 import com.google.android.material.floatingactionbutton.FloatingActionButton
 
 import org.koin.androidx.viewmodel.ext.android.viewModel

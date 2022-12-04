@@ -1,4 +1,4 @@
-package com.example.weatherfetcher.feature.weather_screen.ui
+package com.example.weatherfetcher.feature.ui
 
 import com.example.weatherfetcher.base.Event
 

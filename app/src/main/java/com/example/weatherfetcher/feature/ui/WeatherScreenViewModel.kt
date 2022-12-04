@@ -1,4 +1,4 @@
-package com.example.weatherfetcher.feature.weather_screen.ui
+package com.example.weatherfetcher.feature.ui
 
 import androidx.lifecycle.viewModelScope
 import com.example.weatherfetcher.base.BaseViewModel
@@ -6,7 +6,8 @@ import com.example.weatherfetcher.base.Event
 import com.example.weatherfetcher.feature.weather_screen.WeatherInteractor
 import kotlinx.coroutines.launch
 
-class WeatherScreenViewModel(val interactor: WeatherInteractor) : BaseViewModel<ViewState>() {
+class WeatherScreenViewModel(private val interactor: WeatherInteractor) :
+    BaseViewModel<ViewState>() {
 
 
     override fun initialViewState(): ViewState =
