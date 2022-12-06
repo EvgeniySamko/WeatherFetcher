@@ -1,4 +1,4 @@
-package com.example.weatherfetcher.base
+package com.example.weatherfetcher.weather_screen.base
 
 sealed class Either<out LEFT, out RIGHT> {
 
